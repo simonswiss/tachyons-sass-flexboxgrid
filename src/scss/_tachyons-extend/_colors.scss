@@ -1,0 +1,44 @@
+/* ##### s1-custom colors ##### */
+
+$primary:                   #2bcc83;
+$secondary:                 #2b4864;
+$text:                      #4a6986;
+$light-bg:                  #f7f6f5;
+
+$keep-me:                   #f7f9fa;
+
+// aliases
+$dark-gray:                 $secondary;
+$text-gray:                 $text;
+$heading-color:             $secondary;
+$text-color:                $text;
+
+// hmmmm...
+$ternary:                   #43A6DD;
+$matt-blue:                 rgb(85, 94, 109);
+
+$purple:                    #8f65b6;
+$tomato:                    #ff5e4b;
+$dark-green:                #076f39;
+
+$light-gray:                #A0A2A7;
+$gray:                      #767b81;
+$text-gray:                 #6b7c93;
+$blue-gray:                 #e9f0f3;
+$footer-gray:               #5d6369;
+
+$border:                    #ecf1f5;
+$lighter-border:            #f0f1f1;
+$form-border:               #e1e5e8;
+
+$highlight-1:               $primary;
+$highlight-2:               #9b59b6;
+$highlight-3:               #3498db;
+$highlight-4:               #e74c3c;
+
+// ratings colors
+$color-excellent:           #73d9e7;
+$color-very-good:           #9fd56a;
+$color-good:                #ffcb64;
+$color-average:             #fc9a5a;
+$color-below-average:       #ff514c;

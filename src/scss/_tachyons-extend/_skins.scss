@@ -1,0 +1,23 @@
+$color-map: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'light-bg': $light-bg,
+
+  'heading-color': $heading-color,
+  'text-color': $text-color,
+
+  'ternary': $ternary,
+  'matt-blue': $matt-blue,
+  'border': $border,
+  'lighter-border': $lighter-border,
+  'form-border': $form-border,
+  'dark-gray': $dark-gray
+);
+
+@each $class, $color in $color-map {
+  .#{$class} { color: $color; }
+}
+
+@each $class, $color in $color-map {
+  .bg-#{$class} { background-color: $color; }
+}
