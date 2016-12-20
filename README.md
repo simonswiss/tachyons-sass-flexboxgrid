@@ -1,5 +1,9 @@
 ## Tachyons + Flexboxgrid playground
 
+- Work straight into the html files inside the `dist/` folder. You can use the `blank.html` template as a starter for new pages you need to build.
+
+### How to structure our CSS
+
 - helper classes (and anything that extends the tachyons philosophy) go into `src/scss/_tachyons-extend`
 - custom CSS (when needed for specific reasons) goes in `src/scss/_custom`
 
