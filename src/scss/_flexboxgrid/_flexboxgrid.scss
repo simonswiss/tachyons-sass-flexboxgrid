@@ -7,7 +7,7 @@
   padding-left: 2rem;
 }
 
-.fbg-row {
+.row {
   box-sizing: border-box;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -25,7 +25,7 @@
   margin-left: -1rem;
 }
 
-.fbg-row.reverse {
+.row.reverse {
   -ms-flex-direction: row-reverse;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;

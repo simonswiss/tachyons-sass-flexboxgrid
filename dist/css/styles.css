@@ -7,7 +7,7 @@
   padding-right: 2rem;
   padding-left: 2rem; }
 
-.fbg-row {
+.row {
   box-sizing: border-box;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -24,7 +24,7 @@
   margin-right: -1rem;
   margin-left: -1rem; }
 
-.fbg-row.reverse {
+.row.reverse {
   -ms-flex-direction: row-reverse;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -7539,7 +7539,6 @@ template {
   z-index: unset; }
 
 /* ##### 2. tachyons extensions ##### */
-/* ##### s1-custom colors ##### */
 .primary {
   color: #2bcc83; }
 
@@ -7548,30 +7547,6 @@ template {
 
 .light-bg {
   color: #f7f6f5; }
-
-.heading-color {
-  color: #2b4864; }
-
-.text-color {
-  color: #4a6986; }
-
-.ternary {
-  color: #43A6DD; }
-
-.matt-blue {
-  color: #555e6d; }
-
-.border {
-  color: #ecf1f5; }
-
-.lighter-border {
-  color: #f0f1f1; }
-
-.form-border {
-  color: #e1e5e8; }
-
-.dark-gray {
-  color: #2b4864; }
 
 .bg-primary {
   background-color: #2bcc83; }
@@ -7582,66 +7557,17 @@ template {
 .bg-light-bg {
   background-color: #f7f6f5; }
 
-.bg-heading-color {
-  background-color: #2b4864; }
+.b--primary {
+  border-color: #2bcc83; }
 
-.bg-text-color {
-  background-color: #4a6986; }
+.b--secondary {
+  border-color: #2b4864; }
 
-.bg-ternary {
-  background-color: #43A6DD; }
-
-.bg-matt-blue {
-  background-color: #555e6d; }
-
-.bg-border {
-  background-color: #ecf1f5; }
-
-.bg-lighter-border {
-  background-color: #f0f1f1; }
-
-.bg-form-border {
-  background-color: #e1e5e8; }
-
-.bg-dark-gray {
-  background-color: #2b4864; }
+.b--light-bg {
+  border-color: #f7f6f5; }
 
 /* ##### 3. custom styles ##### */
-@font-face {
-  font-family: Circular;
-  src: url(../fonts/circular-light.woff2) format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: Circular;
-  src: url(../fonts/circular-book.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: Circular;
-  src: url(../fonts/circular-medium.woff2) format("woff2");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: Circular;
-  src: url(../fonts/circular-bold.woff2) format("woff2");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: Circular;
-  src: url(../fonts/circular-black.woff2) format("woff2");
-  font-weight: 900;
-  font-style: normal; }
-
-body {
-  font-family: 'Circular', sans-serif;
-  line-height: 1.5; }
-
-.s1-container {
+.wrapper {
   max-width: 72em;
   margin-left: auto;
   margin-right: auto; }
